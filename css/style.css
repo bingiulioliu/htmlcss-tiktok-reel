@@ -121,7 +121,7 @@ button {
 .navbar-flex {
 	display: flex;
 	flex-direction: row; /* default */
-	gap: 10px;
+	gap: 15px;
 	position: absolute;
 	z-index: 10;
 }
@@ -141,10 +141,29 @@ button {
 }
 .sidebar-flex button i {
 	font-size: 35px;
+	color: white;
 }
 .sidebar-flex button img {
 	border-radius: 50%;
 	border: 3px solid white;
 	width: 35px;
 	height: 35px;
+}
+
+
+.video-text {
+	position: absolute;
+	z-index: 20;
+	bottom: 120px;
+	color: white;
+	width: 65%;
+	left: 20px;
+}
+.video-text span:first-child {
+	display: block;
+}
+.video-text button a {
+	color: white;
+	font-size: larger;
+	font-weight: 600;
 }
