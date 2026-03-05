@@ -81,3 +81,24 @@ da rimuovere una volta concluso
 }
 
 /* --------------------- */
+
+/* FONT 
+.tiktok-sans {
+  font-family: "TikTok Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "wdth" 100;
+} */
+
+/* z index -1 al layrer sottostante */
+.bg.video {
+	z-index: -1;
+}
+button {
+	background: transparent;
+	border: none;
+	color: white;
+}
