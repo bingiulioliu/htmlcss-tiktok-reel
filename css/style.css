@@ -97,8 +97,23 @@ da rimuovere una volta concluso
 .bg.video {
 	z-index: -1;
 }
+/* aspetto bottoni */
 button {
 	background: transparent;
 	border: none;
 	color: white;
+}
+
+/* FLEX al Header */
+.header-flex {
+	display: flex;
+	flex-direction: row; /* default */
+	justify-content: space-between;
+	margin: 20px;
+}
+.navbar-flex {
+	display: flex;
+	flex-direction: row; /* default */
+	justify-content: space-between;
+	font-size: 3em;
 }
