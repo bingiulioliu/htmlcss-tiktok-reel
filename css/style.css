@@ -137,8 +137,14 @@ button {
 	left: 15px;
 	width: 92%;
 	flex-grow: 1;
+	gap: 25px;
 }
-button .sidebar-item {
-	color: white;
-	flex-grow: 1;
+.sidebar-flex button i {
+	font-size: 35px;
+}
+.sidebar-flex button img {
+	border-radius: 50%;
+	border: 3px solid white;
+	width: 35px;
+	height: 35px;
 }
